@@ -14,6 +14,8 @@ title = "캔들 트렌드"
   # description = "My awesome website"
 
 [params.author]
+  name = "캔들트렌드"
+  headline = "모든 투자의 책임은 본인에게 있으며, 본 정보는 참고용입니다.<br>캔들트렌드는 방향을 알려줄 뿐, 길을 걷는 건 당신입니다."
   # name = "Your name here"
   # image = "img/author.jpg"
   # headline = "I'm only human"
