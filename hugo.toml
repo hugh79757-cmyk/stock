@@ -1,47 +1,45 @@
 baseURL = "https://stock.informationhot.kr/"
 languageCode = "ko-KR"
-title = "주식 정보 블로그"
-theme = "PaperMod"
-
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-  [markup.highlight]
-    codeFences = true
-    guessSyntax = true
-    lineNos = false
-    style = "monokai"
+title = "캔들트렌드 - 주식정보 블로그"
+theme = "congo"
 
 [params]
-  env = "production"
-  defaultTheme = "auto"
-  ShowReadingTime = true
-  ShowShareButtons = true
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
-  ShowToc = true
-  TocOpen = true
+  colorScheme = "avocado"
+  defaultAppearance = "light"
+  autoSwitchAppearance = true
+  showScrollToTop = true
+  favicon = "/images/candle-favicon.png"
   
-  [params.homeInfoParams]
-    Title = "IPO & 주식 정보"
-    Content = "공모주 청약, 주식 분석, 투자 정보를 제공합니다."
+  
+  [params.homepage]
+    layout = "profile"
+    showRecent = true
+    recentLimit = 10
 
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
+  [params.article]
+    showDate = true
+    showReadingTime = true
+    showTaxonomies = true
+    showTableOfContents = true
+    showRelatedContent = true
 
-[[menu.main]]
-  name = "홈"
-  url = "/"
-  weight = 1
+  [params.author]
+    name = "캔들트렌드"
 
-[[menu.main]]
-  name = "IPO"
-  url = "/categories/ipo/"
-  weight = 2
+[menu]
+  [[menu.main]]
+    name = "홈"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "IPO"
+    url = "/categories/ipo/"
+    weight = 2
+  [[menu.main]]
+    name = "주식분석"
+    url = "/categories/주식분석/"
+    weight = 3
 
-[[menu.main]]
-  name = "주식분석"
-  url = "/categories/주식분석/"
-  weight = 3
+[taxonomies]
+  category = "categories"
+  tag = "tags"
