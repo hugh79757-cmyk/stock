@@ -1,0 +1,47 @@
+baseURL = "https://stock.informationhot.kr/"
+languageCode = "ko-KR"
+title = "주식 정보 블로그"
+theme = "PaperMod"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = false
+    style = "monokai"
+
+[params]
+  env = "production"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = true
+  
+  [params.homeInfoParams]
+    Title = "IPO & 주식 정보"
+    Content = "공모주 청약, 주식 분석, 투자 정보를 제공합니다."
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[[menu.main]]
+  name = "홈"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "IPO"
+  url = "/categories/ipo/"
+  weight = 2
+
+[[menu.main]]
+  name = "주식분석"
+  url = "/categories/주식분석/"
+  weight = 3
