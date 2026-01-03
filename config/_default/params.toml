@@ -7,7 +7,7 @@
 
 colorScheme = "avocado"
 defaultAppearance = "light" # valid options: light or dark
-autoSwitchAppearance = true
+autoSwitchAppearance = false
 
 defaultThemeColor = "#FFFFFF"
 
