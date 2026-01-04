@@ -1,0 +1,527 @@
+
+
+  
+
+
+
+
+
+
+<!doctype html>
+<html
+  lang="ko-KR"
+  dir="ltr"
+  class="scroll-smooth"
+  data-default-appearance="light"
+  data-auto-appearance="false"
+><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=52527&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#FFFFFF" />
+  
+  <title>Front Matter CMS로 Hugo 블로그 시작하기 &middot; 캔들 트렌드</title>
+    <meta name="title" content="Front Matter CMS로 Hugo 블로그 시작하기 &middot; 캔들 트렌드" />
+  
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="http://localhost:52527/js/appearance.min.8a082f81b27f3cb2ee528df0b0bdc39787034cf2cc34d4669fbc9977c929023c.js"
+    integrity="sha256-iggvgbJ/PLLuUo3wsL3Dl4cDTPLMNNRmn7yZd8kpAjw="
+  ></script>
+  
+  
+  
+  
+  
+  
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="http://localhost:52527/css/main.bundle.min.3f88f048501ed9098efbecafdcc0cac34ee5707c28178415a0fb97020a152c40.css"
+    integrity="sha256-P4jwSFAe2QmO&#43;&#43;yv3MDKw07lcHwoF4QVoPuXAgoVLEA="
+  />
+  
+  
+  
+  
+  
+  
+  
+  <meta
+    name="description"
+    content="
+      VSCode에서 Front Matter CMS를 사용해 Hugo 블로그 글을 작성하는 첫 경험을 공유합니다
+    "
+  />
+  
+  
+  
+  
+    <link rel="canonical" href="http://localhost:52527/ko/posts/2026-01-04-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%BD%98%ED%85%90%EC%B8%A0/" />
+  
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:url" content="http://localhost:52527/ko/posts/2026-01-04-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%BD%98%ED%85%90%EC%B8%A0/">
+  <meta property="og:site_name" content="캔들 트렌드">
+  <meta property="og:title" content="Front Matter CMS로 Hugo 블로그 시작하기">
+  <meta property="og:description" content="VSCode에서 Front Matter CMS를 사용해 Hugo 블로그 글을 작성하는 첫 경험을 공유합니다">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="ko">
+    <meta property="article:published_time" content="2026-01-04T08:59:29+00:00">
+    <meta property="article:modified_time" content="2026-01-04T08:59:29+00:00">
+    <meta property="article:tag" content="Hugo">
+    <meta property="article:tag" content="Front Matter">
+    <meta property="article:tag" content="블로그">
+    <meta property="article:tag" content="VSCode">
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Front Matter CMS로 Hugo 블로그 시작하기">
+  <meta name="twitter:description" content="VSCode에서 Front Matter CMS를 사용해 Hugo 블로그 글을 작성하는 첫 경험을 공유합니다">
+
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Koes",
+    "name": "Front Matter CMS로 Hugo 블로그 시작하기",
+    "headline": "Front Matter CMS로 Hugo 블로그 시작하기",
+    "description": "VSCode에서 Front Matter CMS를 사용해 Hugo 블로그 글을 작성하는 첫 경험을 공유합니다",
+    
+    "inLanguage": "ko-KR",
+    "url" : "http:\/\/localhost:52527\/ko\/posts\/2026-01-04-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%BD%98%ED%85%90%EC%B8%A0\/",
+    "author" : {
+      "@type": "Person",
+      "name": "캔들트렌드"
+    },
+    "copyrightYear": "2026",
+    "dateCreated": "2026-01-04T08:59:29\u002b00:00",
+    "datePublished": "2026-01-04T08:59:29\u002b00:00",
+    
+    "dateModified": "2026-01-04T08:59:29\u002b00:00",
+    
+    "keywords": ["Hugo","Front Matter","블로그","VSCode"],
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "102"
+  }
+  </script>
+    
+    <script type="application/ld+json">
+    {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+     {
+       "@type": "ListItem",
+       "item": "http://localhost:52527/",
+       "name": "캔들 트렌드",
+       "position": 1
+     },
+     {
+       "@type": "ListItem",
+       "item": "http://localhost:52527/ko/",
+       "name": "Koes",
+       "position": 2
+     },
+     {
+       "@type": "ListItem",
+       "item": "http://localhost:52527/categories/%EA%B0%9C%EB%B0%9C%EB%8F%84%EA%B5%AC/",
+       "name": "개발도구",
+       "position": 3
+     },
+     {
+       "@type": "ListItem",
+       "name": "Front Matter Cms로 Hugo 블로그 시작하기",
+       "position": 4
+     }
+   ]
+ }
+  </script>
+
+  
+  
+    <meta name="author" content="캔들트렌드" />
+  
+  
+  
+  
+
+
+
+
+
+
+
+  
+  
+
+  
+  
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6677996696534146" crossorigin="anonymous"></script>
+<meta name="google-site-verification" content="gWEAZRdroAJvrxbYNgysEL8U7Oq7uIPjKfI6sZutBLs" />
+<meta name="naver-site-verification" content="5b0af6c49635ecc7a0a340c148a7918b09e4c01c" />
+
+<style>
+h2 {
+  font-size: 1.8rem !important;
+  font-weight: 800 !important;
+  margin-top: 2.5rem !important;
+  margin-bottom: 1rem !important;
+  border-bottom: 3px solid #22c55e !important;
+  padding-bottom: 0.5rem !important;
+}
+
+h3 {
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+  margin-top: 2rem !important;
+  margin-bottom: 0.75rem !important;
+}
+
+table {
+  width: 100% !important;
+  border-collapse: collapse !important;
+  margin: 1.5rem 0 !important;
+}
+
+th, td {
+  border: 1px solid #d1d5db !important;
+  padding: 0.75rem 1rem !important;
+  text-align: left !important;
+}
+
+th {
+  background-color: #f3f4f6 !important;
+  font-weight: 700 !important;
+}
+
+tr:nth-child(even) {
+  background-color: #f9fafb !important;
+}
+
+ 
+article.max-w-prose {
+  max-width: 65ch !important;
+  margin: 0 auto !important;
+}
+</style>
+
+  
+</head>
+<body
+    class="m-auto flex h-screen max-w-7xl flex-col bg-neutral px-6 text-lg leading-7 text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32"
+  >
+    <div id="the-top" class="absolute flex self-center">
+      <a
+        class="-translate-y-8 rounded-b-lg bg-primary-200 px-3 py-1 text-sm focus:translate-y-0 dark:bg-neutral-600"
+        href="#main-content"
+        ><span class="pe-2 font-bold text-primary-600 dark:text-primary-400">&darr;</span
+        >메인 콘텐츠로 이동하기</a
+      >
+    </div>
+    
+    
+      <header class="py-6 font-semibold text-neutral-900 dark:text-neutral sm:py-10 print:hidden">
+  <nav class="flex items-start justify-between sm:items-center">
+    
+    <div class="flex flex-row items-center">
+      
+  <a
+    class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
+    rel="me"
+    href="/"
+    >캔들 트렌드</a
+  >
+
+    </div>
+    
+    
+      <ul class="flex list-none flex-col text-end sm:flex-row">
+        
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/"
+                  title=""
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >홈</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/categories/ipo/"
+                  title=""
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >IPO</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/categories/%EC%A3%BC%EC%8B%9D%EB%B6%84%EC%84%9D/"
+                  title=""
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >주식분석</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+          
+        
+      </ul>
+    
+  </nav>
+</header>
+
+    
+    <div class="relative flex grow flex-col">
+      <main id="main-content" class="grow">
+        
+  <article class="max-w-prose">
+    
+    <div style="margin-bottom: 20px; width: 100%;">
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6677996696534146" crossorigin="anonymous"></script>
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-6677996696534146"
+           data-ad-slot="5841226790"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+
+    <header>
+      
+      <h1 class="mb-8 mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        Front Matter CMS로 Hugo 블로그 시작하기
+      </h1>
+      
+        <div class="mb-10 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+          
+
+
+
+
+
+  
+  
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2026-01-04 08:59:29.14 &#43;0000 UTC">2026년 1월 4일</time><span class="px-2 text-primary-500">&middot;</span><span title="읽는 데 걸리는 시간">1 분</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+        </div>
+      
+      
+    </header>
+    <section class="prose mt-0 flex flex-col dark:prose-invert lg:flex-row">
+      
+      <div class="min-h-0 min-w-0 grow">
+        
+        
+        
+        <h1 id="front-matter-cms-첫-테스트" class="relative group">Front Matter CMS 첫 테스트 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#front-matter-cms-%ec%b2%ab-%ed%85%8c%ec%8a%a4%ed%8a%b8" aria-label="앵커">#</a></span></h1><p>오늘 처음으로 Front Matter CMS를 설치하고 글을 작성해봅니다.</p>
+<div style="margin: 20px 0; width: 100%;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6677996696534146" crossorigin="anonymous"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6677996696534146" data-ad-slot="5841226790" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div><h2 id="설치-과정" class="relative group">설치 과정 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%ec%84%a4%ec%b9%98-%ea%b3%bc%ec%a0%95" aria-label="앵커">#</a></span></h2><p>VSCode에서 Extensions 마켓플레이스를 통해 Front Matter를 설치했습니다. 생각보다 설정이 간단했고, Hugo 프로젝트와 자동으로 연동되었습니다.</p>
+<h2 id="주요-기능" class="relative group">주요 기능 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%ec%a3%bc%ec%9a%94-%ea%b8%b0%eb%8a%a5" aria-label="앵커">#</a></span></h2><p>
+
+
+
+
+
+
+  
+  
+<figure><img src="2026010435253.webp" alt="에이아이와의 대화" class="mx-auto my-0 rounded-md" />
+</figure>
+</p>
+<p>Front Matter CMS의 주요 기능은 다음과 같습니다:</p>
+<ul>
+<li>직관적인 글 작성 인터페이스</li>
+<li>태그와 카테고리 관리</li>
+<li>이미지 업로드 기능</li>
+<li>SEO 최적화 도구</li>
+<li>실시간 미리보기</li>
+</ul>
+<h2 id="첫-느낌" class="relative group">첫 느낌 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%ec%b2%ab-%eb%8a%90%eb%82%8c" aria-label="앵커">#</a></span></h2><p>마크다운 파일을 직접 편집하는 것보다 훨씬 편리합니다. 특히 메타데이터(제목, 날짜, 태그 등)를 GUI로 관리할 수 있어서 실수할 일이 줄어들 것 같습니다.</p>
+<h2 id="다음-계획" class="relative group">다음 계획 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%eb%8b%a4%ec%9d%8c-%ea%b3%84%ed%9a%8d" aria-label="앵커">#</a></span></h2><p>앞으로 이 블로그에서 다룰 주제들:</p>
+<ol>
+<li>주식 투자 분석</li>
+<li>기술 블로그 운영 팁</li>
+<li>정적 사이트 생성기 비교</li>
+<li>개발 도구 리뷰</li>
+</ol>
+<p>블로그 운영이 기대됩니다! 🚀</p>
+
+      </div>
+    </section>
+    <footer class="pt-8 print:hidden">
+      
+
+      
+
+      
+  
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          
+            <a class="group flex" href="http://localhost:52527/ko/posts/2026-1-4-searchingrankedstocks/">
+              <span
+                class="me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+                ><span class="ltr:inline rtl:hidden">&larr;</span
+                ><span class="ltr:hidden rtl:inline">&rarr;</span></span
+              >
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >2026년 새해 증시 핫이슈! 오늘의 검색 상위종목 완전 분석 에코마케팅 LS티라유텍 형지글로벌</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2026-01-04 00:00:00 &#43;0000 UTC">2026년 1월 4일</time>
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+        </span>
+      </div>
+    </div>
+  
+
+
+      
+    </footer>
+  </article>
+
+      </main>
+      
+        <div
+          class="pointer-events-none absolute bottom-0 end-0 top-[100vh] w-12"
+          id="to-top"
+          hidden="true"
+        >
+          <a
+            href="#the-top"
+            class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 backdrop-blur hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+            aria-label="위로 스크롤"
+            title="위로 스크롤"
+          >
+            &uarr;
+          </a>
+        </div>
+      <footer class="py-10 print:hidden">
+  
+  
+  <div class="flex items-center justify-between">
+    <div>
+      
+      
+        <p class="text-sm text-neutral-500 dark:text-neutral-400">
+            &copy;
+            2026
+            캔들트렌드
+        </p>
+      
+      
+      
+        <p class="text-xs text-neutral-500 dark:text-neutral-400">
+          
+          
+          Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+            href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer">Congo</a>
+        </p>
+      
+    </div>
+    <div class="flex flex-row items-center">
+      
+      
+      
+      
+    </div>
+  </div>
+  
+  
+</footer>
+
+    </div>
+  </body>
+</html>
