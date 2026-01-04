@@ -2,8 +2,10 @@
 # Refer to the theme docs for more details about each of these parameters.
 # https://jpanther.github.io/congo/docs/getting-started/
 
-# baseURL = "https://your_domain.com/"
-defaultContentLanguage = "en"
+baseURL = "https://stock.informationhot.kr/"
+title = "캔들 트렌드"
+defaultContentLanguage = "ko"
+languageCode = "ko-KR"
 
 enableRobotsTXT = true
 summaryLength = 0
@@ -13,6 +15,15 @@ summaryLength = 0
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.parser]
+      autoHeadingID = true
+  [markup.highlight]
+    noClasses = false
 
 [privacy]
   [privacy.vimeo]
