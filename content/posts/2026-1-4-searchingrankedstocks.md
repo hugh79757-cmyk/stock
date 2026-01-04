@@ -24,19 +24,19 @@ description: "2026년 새해 첫 거래일, 코스피 4,300 돌파와 함께 투
 | 2 | [LS티라유텍](https://finance.naver.com/item/main.naver?code=322180) | IT서비스 | 10,060 | +29.97% | 201억원 |
 | 3 | [형지글로벌](https://finance.naver.com/item/main.naver?code=037440) | 의류/패션잡화 | 1,726 | +29.97% | 125억원 |
 | 4 | [원익](https://finance.naver.com/item/main.naver?code=032940) | 의료장비/용품 | 13,750 | +29.96% | 40억원 |
-| 5 | [스피어](https://finance.naver.com/item/main.naver?code=382800) | IT서비스 | 19,090 | +29.95% | 1,449억원 |
-| 6 | [협진](https://finance.naver.com/item/main.naver?code=069490) | 화장품 | 1,306 | +29.95% | 21억원 |
+| 5 | [스피어](https://finance.naver.com/item/main.naver?code=347700) | IT서비스 | 19,090 | +29.95% | 1,449억원 |
+| 6 | [협진](https://finance.naver.com/item/main.naver?code=138360) | 화장품 | 1,306 | +29.95% | 21억원 |
 | 7 | [네오오토](https://finance.naver.com/item/main.naver?code=212560) | 자동차부품 | 11,500 | +29.94% | 166억원 |
 | 8 | [인베니아](https://finance.naver.com/item/main.naver?code=079950) | 디스플레이장비/부품 | 1,550 | +29.92% | 38억원 |
 | 9 | [쎄트렉아이](https://finance.naver.com/item/main.naver?code=099320) | 우주항공/국방 | 89,100 | +29.88% | 1,647억원 |
 | 10 | [테라뷰](https://finance.naver.com/item/main.naver?code=950250) | - | 9,780 | +29.88% | 868억원 |
 | 11 | [형지엘리트](https://finance.naver.com/item/main.naver?code=093240) | 의류/패션잡화 | 2,205 | +29.86% | 425억원 |
 | 12 | [원익큐브](https://finance.naver.com/item/main.naver?code=014190) | 화학 | 2,100 | +29.79% | 209억원 |
-| 13 | [씨티알모빌리티](https://finance.naver.com/item/main.naver?code=476170) | 자동차부품 | 8,620 | +26.39% | 92억원 |
+| 13 | [씨티알모빌리티](https://finance.naver.com/item/main.naver?code=308170) | 자동차부품 | 8,620 | +26.39% | 92억원 |
 | 14 | [현대무벡스](https://finance.naver.com/item/main.naver?code=018270) | 기계 | 23,700 | +26.13% | 6,172억원 |
 | 15 | [대한광통신](https://finance.naver.com/item/main.naver?code=010170) | 전기장비 | 2,800 | +25.84% | 839억원 |
 
-특히 주목할 만한 것은 '**우주항공 관련주들의 강세**'입니다. [쎄트렉아이](https://finance.naver.com/item/main.naver?code=099320)가 29.88% 급등하며 8만 9천원 선을 돌파했고, [스피어](https://finance.naver.com/item/main.naver?code=382800)도 29.95% 상승하며 시장의 이목을 집중시키고 있습니다. [현대무벡스](https://finance.naver.com/item/main.naver?code=018270) 역시 26.13% 상승하며 거래대금 6,172억원을 기록, 시장에서 가장 활발한 거래를 보여주고 있습니다.
+특히 주목할 만한 것은 '**우주항공 관련주들의 강세**'입니다. [쎄트렉아이](https://finance.naver.com/item/main.naver?code=099320)가 29.88% 급등하며 8만 9천원 선을 돌파했고, [스피어](https://finance.naver.com/item/main.naver?code=347700)도 29.95% 상승하며 시장의 이목을 집중시키고 있습니다. [현대무벡스](https://finance.naver.com/item/main.naver?code=018270) 역시 26.13% 상승하며 거래대금 6,172억원을 기록, 시장에서 가장 활발한 거래를 보여주고 있습니다.
 
 ---
 
@@ -64,11 +64,11 @@ description: "2026년 새해 첫 거래일, 코스피 4,300 돌파와 함께 투
 
 ### 삼성전자
 
-[삼성전자](https://finance.naver.com/item/main.naver?code=005930)의 경우 현재 12만 5천원대에서 거래되고 있으며, 증권가에서는 **'16만전자'**까지 전망하는 목소리가 나오고 있습니다. 4분기 영업이익이 20조원에 달할 것으로 예상되며, 2026년 연간 영업이익 100조원 시대가 열릴 것이라는 기대감이 높습니다.
+[삼성전자](https://finance.naver.com/item/main.naver?code=005930)의 경우 현재 12만 5천원대에서 거래되고 있으며, 증권가에서는 **16만전자**까지 전망하는 목소리가 나오고 있습니다. 4분기 영업이익이 20조원에 달할 것으로 예상되며, 2026년 연간 영업이익 100조원 시대가 열릴 것이라는 기대감이 높습니다.
 
 ### SK하이닉스
 
-[SK하이닉스](https://finance.naver.com/item/main.naver?code=000660)는 더욱 공격적인 전망이 제시되고 있습니다. 일부 증권사에서는 **'115만닉스'**까지 목표가를 상향했으며, 현재 67만원대에서 거래 중입니다. AI 인프라 투자 확대에 따른 HBM(고대역폭메모리) 수요 증가가 [SK하이닉스](https://finance.naver.com/item/main.naver?code=000660)의 실적을 견인할 것으로 보입니다.
+[SK하이닉스](https://finance.naver.com/item/main.naver?code=000660)는 더욱 공격적인 전망이 제시되고 있습니다. 일부 증권사에서는 **115만닉스**까지 목표가를 상향했으며, 현재 67만원대에서 거래 중입니다. AI 인프라 투자 확대에 따른 HBM(고대역폭메모리) 수요 증가가 [SK하이닉스](https://finance.naver.com/item/main.naver?code=000660)의 실적을 견인할 것으로 보입니다.
 
 ### 반도체 투자 전망
 
@@ -86,7 +86,7 @@ description: "2026년 새해 첫 거래일, 코스피 4,300 돌파와 함께 투
 | [리브스메드](https://finance.naver.com/item/main.naver?code=491000) | 53,500 | +3.48% | 195만주 | 의료기기 |
 | [알지노믹스](https://finance.naver.com/item/main.naver?code=476830) | 150,000 | -6.54% | 64만주 | 신규상장 바이오 |
 | [노타](https://finance.naver.com/item/main.naver?code=486990) | 56,400 | +21.81% | 762만주 | AI 관련 |
-| [페스카로](https://finance.naver.com/item/main.naver?code=347700) | 16,090 | +6.98% | 177만주 | 자동차 보안 |
+| [페스카로](https://finance.naver.com/item/main.naver?code=0015S0) | 16,090 | +6.98% | 177만주 | 자동차 보안 |
 
 ETF 시장에서는 반도체 관련 ETF들이 강세를 보이고 있으며, [KODEX 2차전지산업레버리지](https://finance.naver.com/item/main.naver?code=462330)와 [TIGER 2차전지TOP10레버리지](https://finance.naver.com/item/main.naver?code=412570) 등 레버리지 상품들의 거래도 활발합니다.
 
