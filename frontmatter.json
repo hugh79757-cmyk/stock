@@ -1,65 +1,60 @@
 {
-  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.framework.id": "hugo",
+  "frontMatter.content.publicFolder": "static",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "posts",
+      "path": "[[workspace]]/content/ko/posts"
+    }
+  ],
   "frontMatter.taxonomy.contentTypes": [
     {
       "name": "default",
       "pageBundle": false,
-      "previewPath": null,
       "fields": [
         {
-          "title": "Title",
+          "title": "title",
           "name": "title",
           "type": "string"
         },
         {
-          "title": "Description",
+          "title": "description",
           "name": "description",
           "type": "string"
         },
         {
-          "title": "Publishing date",
+          "title": "date",
           "name": "date",
-          "type": "datetime",
-          "default": "{{now}}",
-          "isPublishDate": true
+          "type": "datetime"
         },
         {
-          "title": "Content preview",
+          "title": "preview",
           "name": "preview",
-          "type": "image"
+          "type": "string"
         },
         {
-          "title": "Is in draft",
+          "title": "draft",
           "name": "draft",
           "type": "draft"
         },
         {
-          "title": "Tags",
+          "title": "tags",
           "name": "tags",
           "type": "tags"
         },
         {
-          "title": "Categories",
+          "title": "categories",
           "name": "categories",
           "type": "categories"
         }
       ]
     }
   ],
-  "frontMatter.framework.id": "hugo",
-  "frontMatter.content.publicFolder": "static",
-  "frontMatter.preview.host": "http://localhost:1313",
-  "frontMatter.content.pageFolders": [
+  "frontMatter.custom.scripts": [
     {
-      "path": "[[workspace]]/themes/congo/.github",
-      "title": ".github"
-    },
-    {
-      "path": "[[workspace]]/content/ko/posts"
-    },
-    {
-      "path": "[[workspace]]/themes/congo/archetypes"
+      "title": "Upload to R2",
+      "script": "./scripts/upload_to_r2.py",
+      "command": "python3"
     }
-  ],
-  "frontMatter.git.enabled": false
+  ]
 }

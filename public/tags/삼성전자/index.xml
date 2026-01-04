@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>삼성전자 on 캔들 트렌드</title>
-    <link>http://localhost:52527/tags/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90/</link>
+    <link>http://localhost:55876/tags/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90/</link>
     <description>Recent content in 삼성전자 on 캔들 트렌드</description>
     <generator>Hugo</generator>
     <language>ko-KR</language>
     <lastBuildDate>Sun, 04 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:52527/tags/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:55876/tags/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2026년 새해 증시 핫이슈! 오늘의 검색 상위종목 완전 분석 에코마케팅 LS티라유텍 형지글로벌</title>
-      <link>http://localhost:52527/ko/posts/2026-1-4-searchingrankedstocks/</link>
+      <link>http://localhost:55876/ko/posts/2026-1-4-searchingrankedstocks/</link>
       <pubDate>Sun, 04 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52527/ko/posts/2026-1-4-searchingrankedstocks/</guid>
+      <guid>http://localhost:55876/ko/posts/2026-1-4-searchingrankedstocks/</guid>
       <description></description>
     </item>
     <item>
       <title>삼성전자 주가 전망 2026년 목표주가 및 투자 포인트 총정리(이글은 테스트용입니다 )</title>
-      <link>http://localhost:52527/ko/posts/samsung-stock-2026/</link>
+      <link>http://localhost:55876/ko/posts/samsung-stock-2026/</link>
       <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52527/ko/posts/samsung-stock-2026/</guid>
+      <guid>http://localhost:55876/ko/posts/samsung-stock-2026/</guid>
       <description></description>
     </item>
   </channel>
