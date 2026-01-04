@@ -4,7 +4,7 @@
   {{- $feature := $images.GetMatch (.Params.feature | default "*feature*") | default $cover }}
   <article>
     <!-- 타이틀 위 광고 -->
-    <div style="margin-bottom: 20px;">
+        <div style="margin-bottom: 20px; width: 100%; max-width: 65ch;">
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6677996696534146" crossorigin="anonymous"></script>
       <ins class="adsbygoogle"
            style="display:block"
@@ -55,7 +55,7 @@
       {{ end }}
       <div class="min-h-0 min-w-0 max-w-prose grow">
         {{ $content := .Content }}
-        {{ $adCode := `<div style="margin: 20px 0;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6677996696534146" crossorigin="anonymous"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6677996696534146" data-ad-slot="5841226790" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>` }}
+        {{ $adCode := `<div style="margin: 20px 0; max-width: 65ch;"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6677996696534146" crossorigin="anonymous"></script><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6677996696534146" data-ad-slot="5841226790" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>` }}
         {{ $content = replaceRE `(<h2[^>]*>)` (printf "%s$1" $adCode) $content 1 }}
         {{ $content | safeHTML }}
       </div>
