@@ -92,3 +92,6 @@ fingerprintAlgorithm = "sha256"
   # bing = ""
   # pinterest = ""
   # yandex = ""
+
+[customCSS]
+  enabled = true
