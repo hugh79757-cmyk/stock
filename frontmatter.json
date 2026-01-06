@@ -1,4 +1,5 @@
 {
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
   "frontMatter.framework.id": "hugo",
   "frontMatter.content.publicFolder": "static",
   "frontMatter.content.pageFolders": [
@@ -15,39 +16,61 @@
       "pageBundle": false,
       "fields": [
         {
-          "title": "title",
+          "title": "Title",
           "name": "title",
           "type": "string"
         },
         {
-          "title": "description",
+          "title": "Description",
           "name": "description",
           "type": "string"
         },
         {
-          "title": "date",
+          "title": "Date",
           "name": "date",
           "type": "datetime"
         },
         {
-          "title": "preview",
+          "title": "Preview",
           "name": "preview",
           "type": "string"
         },
         {
-          "title": "draft",
+          "title": "Draft",
           "name": "draft",
           "type": "draft"
         },
         {
-          "title": "tags",
+          "title": "Tags",
           "name": "tags",
           "type": "tags"
         },
         {
-          "title": "categories",
+          "title": "Categories",
           "name": "categories",
           "type": "categories"
+        },
+        {
+          "title": "Cover Image",
+          "name": "cover",
+          "type": "block",
+          "fieldGroup": [
+            "cover"
+          ]
+        }
+      ]
+    }
+  ],
+  "frontMatter.taxonomy.fieldGroups": [
+    {
+      "id": "cover",
+      "labelField": "image",
+      "fields": [
+        {
+          "title": "Image",
+          "name": "image",
+          "type": "image",
+          "isPreviewImage": true
         }
       ]
     }
