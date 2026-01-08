@@ -10,6 +10,8 @@ theme = "congo"
   showScrollToTop = true
   favicon = "/images/candle-favicon.png"
   
+  [params.assets]
+    customCSS = ["css/custom.css"]
   
   [params.homepage]
     layout = "profile"
