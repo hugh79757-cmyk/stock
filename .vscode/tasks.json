@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "🎨 1. Professional Dark",
+      "type": "shell",
+      "command": "${workspaceFolder}/venv/bin/python",
+      "args": ["${workspaceFolder}/scripts/preset_1_professional_dark.py"],
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "focus": true
+      }
+    },
+    {
+      "label": "🔥 2. Fire Storm",
+      "type": "shell",
+      "command": "${workspaceFolder}/venv/bin/python",
+      "args": ["${workspaceFolder}/scripts/preset_2_fire_storm.py"],
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "focus": true
+      }
+    }
+  ]
+}

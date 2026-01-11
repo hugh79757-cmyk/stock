@@ -10,72 +10,12 @@
   ],
   "frontMatter.media.folder": "static/images",
   "frontMatter.media.path": "/images",
-  "frontMatter.taxonomy.contentTypes": [
-    {
-      "name": "default",
-      "pageBundle": false,
-      "fields": [
-        {
-          "title": "Title",
-          "name": "title",
-          "type": "string"
-        },
-        {
-          "title": "Description",
-          "name": "description",
-          "type": "string"
-        },
-        {
-          "title": "Date",
-          "name": "date",
-          "type": "datetime"
-        },
-        {
-          "title": "Preview",
-          "name": "preview",
-          "type": "string"
-        },
-        {
-          "title": "Draft",
-          "name": "draft",
-          "type": "draft"
-        },
-        {
-          "title": "Tags",
-          "name": "tags",
-          "type": "tags"
-        },
-        {
-          "title": "Categories",
-          "name": "categories",
-          "type": "categories"
-        },
-        {
-          "title": "Cover Image",
-          "name": "cover",
-          "type": "block",
-          "fieldGroup": [
-            "cover"
-          ]
-        }
-      ]
-    }
-  ],
-  "frontMatter.taxonomy.fieldGroups": [
-    {
-      "id": "cover",
-      "labelField": "image",
-      "fields": [
-        {
-          "title": "Image",
-          "name": "image",
-          "type": "image",
-          "isPreviewImage": true
-        }
-      ]
-    }
-  ],
   "frontMatter.custom.scripts": [
+    {
+      "title": "🎨 썸네일 생성기",
+      "script": "./scripts/run_thumbnail.sh",
+      "command": "/bin/bash"
+    },
     {
       "title": "Upload to R2",
       "script": "./scripts/upload_to_r2.py",

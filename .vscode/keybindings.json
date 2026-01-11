@@ -1,0 +1,10 @@
+[
+  {
+    "key": "cmd+shift+n",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": {
+      "text": "./scripts/new_post.sh\n"
+    },
+    "when": "!terminalFocus"
+  }
+]

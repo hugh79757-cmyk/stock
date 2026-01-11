@@ -1,3 +1,54 @@
 {
-    "liveServer.settings.port": 5501
+  "frontMatter.custom.scripts": [
+    {
+      "title": "🎨 1. Professional Dark",
+      "script": "./scripts/preset_1_professional_dark.py",
+      "command": "/Users/twinssn/Desktop/stock-blog/venv/bin/python"
+    },
+    {
+      "title": "🔥 2. Fire Storm",
+      "script": "./scripts/preset_2_fire_storm.py",
+      "command": "/Users/twinssn/Desktop/stock-blog/venv/bin/python"
+    },
+    {
+      "title": "💻 3. Tech Glow",
+      "script": "./scripts/preset_3_tech_glow.py",
+      "command": "/Users/twinssn/Desktop/stock-blog/venv/bin/python"
+    },
+    {
+      "title": "✨ 4. Minimal Clean",
+      "script": "./scripts/preset_4_minimal_clean.py",
+      "command": "/Users/twinssn/Desktop/stock-blog/venv/bin/python"
+    },
+    {
+      "title": "🌈 5. Rainbow Pop",
+      "script": "./scripts/preset_5_rainbow_pop.py",
+      "command": "/Users/twinssn/Desktop/stock-blog/venv/bin/python"
+    },
+    {
+      "title": "🖼️ 6. Classic Frame",
+      "script": "./scripts/preset_6_classic_frame.py",
+      "command": "/Users/twinssn/Desktop/stock-blog/venv/bin/python"
+    },
+    {
+      "title": "⚡ 7. Dark Neon",
+      "script": "./scripts/preset_7_dark_neon.py",
+      "command": "/Users/twinssn/Desktop/stock-blog/venv/bin/python"
+    },
+    {
+      "title": "🎀 8. Soft Gradient",
+      "script": "./scripts/preset_8_soft_gradient.py",
+      "command": "/Users/twinssn/Desktop/stock-blog/venv/bin/python"
+    },
+    {
+      "title": "�� 9. Fire Frame",
+      "script": "./scripts/preset_9_fire_frame.py",
+      "command": "/Users/twinssn/Desktop/stock-blog/venv/bin/python"
+    },
+    {
+      "title": "🚀 10. Tech Border",
+      "script": "./scripts/preset_10_tech_border.py",
+      "command": "/Users/twinssn/Desktop/stock-blog/venv/bin/python"
+    }
+  ]
 }

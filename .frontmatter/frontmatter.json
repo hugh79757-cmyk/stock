@@ -1,0 +1,77 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "Date",
+          "name": "date",
+          "type": "datetime"
+        },
+        {
+          "title": "Preview",
+          "name": "preview",
+          "type": "string"
+        },
+        {
+          "title": "Draft",
+          "name": "draft",
+          "type": "boolean"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
+        },
+        {
+          "title": "Cover Image",
+          "name": "cover",
+          "type": "fields",
+          "fields": [
+            {
+              "title": "Image",
+              "name": "image",
+              "type": "image",
+              "isPreviewImage": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "frontMatter.framework.id": "hugo",
+  "frontMatter.content.publicFolder": "static",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "posts",
+      "path": "[[workspace]]/content/ko/posts"
+    }
+  ],
+  "frontMatter.media.folder": "static/images",
+  "frontMatter.media.path": "/images",
+  "frontMatter.custom.scripts": [
+    {
+      "title": "🎨 썸네일 생성기 (통합)",
+      "script": "./scripts/thumbnail_interactive.py",
+      "command": "/Users/twinssn/Desktop/stock-blog/venv/bin/python",
+      "type": "custom"
+    }
+  ]
+}
