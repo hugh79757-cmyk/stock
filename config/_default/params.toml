@@ -63,11 +63,14 @@ fingerprintAlgorithm = "sha256"
 
 [list]
   showBreadcrumbs = false
-  showSummary = false
+  showSummary = true
   showTableOfContents = false
   showTaxonomies = false
-  groupByYear = true
+  groupByYear = false
   paginationWidth = 1
+  showCards = true
+  cardView = true
+
 
 [sitemap]
   excludedKinds = ["taxonomy", "term"]
