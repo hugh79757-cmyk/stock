@@ -7,6 +7,7 @@ date: '2026-01-11T09:35:39+09:00'
 description: 2025년 기준 4년 평균 시가배당률 TOP 10 고배당주와 노후 대비 안정적인 배당주 5선, 금융지주 배당 비교까지. 분리과세
   수혜 종목과 배당주 선택 체크포인트를 한눈에 정리했습니다.
 draft: false
+thumbnail: thumbnail.webp
 slug: 2025-guknae-gobaedangju-sunwi
 tags:
 - 고배당주
