@@ -10,3 +10,21 @@
   left: 10px;
   z-index: 9999;
 }
+
+/* 모바일에서 글 목록 세로 정렬 */
+@media (max-width: 640px) {
+  article.flex-row {
+    flex-direction: column;
+  }
+  
+  article.flex-row > div:first-child {
+    padding-right: 0;
+    padding-bottom: 0.75rem;
+  }
+  
+  article.flex-row img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+}
