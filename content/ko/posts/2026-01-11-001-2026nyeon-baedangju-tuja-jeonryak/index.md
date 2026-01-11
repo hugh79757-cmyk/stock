@@ -6,7 +6,7 @@ categories:
 date: '2026-01-11T08:22:14+09:00'
 description: 2026년부터 시행되는 배당소득 분리과세 제도와 함께 국내외 고배당주, 배당성장주 투자 전략을 초보자도 이해하기 쉽게 정리했습니다.
   ISA 계좌 활용법과 월배당 포트폴리오 구성까지 실전 배당 투자 가이드를 확인하세요.
-draft: true
+draft: false
 section: 증권/주식
 slug: 2026nyeon-baedangju-tuja-jeonryak
 tags:
