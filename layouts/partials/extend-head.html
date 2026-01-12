@@ -7,25 +7,10 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-79ZXPZZ262');
 </script>
 
 <style>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6677996696534146" crossorigin="anonymous"></script>
-<meta name="google-site-verification" content="gWEAZRdroAJvrxbYNgysEL8U7Oq7uIPjKfI6sZutBLs" />
-<meta name="naver-site-verification" content="5b0af6c49635ecc7a0a340c148a7918b09e4c01c" />
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-79ZXPZZ262"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-79ZXPZZ262');
-</script>
-
-<style>
-/* ===== 골드 테마 기본 색상 변수 ===== */
 :root {
   --gold-primary: #D4AF37;
   --gold-light: #F4E4BA;
@@ -38,25 +23,47 @@
   --text-muted: #a0a0a0;
 }
 
-/* ===== 전체 배경 ===== */
 body {
-  background: var(--bg-darker) !important;
+  background: url('https://www.genspark.ai/api/files/s/xNVK8EUL') no-repeat center center fixed !important;
+  background-size: cover !important;
   color: var(--text-light) !important;
+  min-height: 100vh !important;
+}
+
+body::before {
+  content: '' !important;
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  background: rgba(0, 0, 0, 0.7) !important;
+  z-index: -1 !important;
 }
 
 html {
   background: var(--bg-darker) !important;
 }
 
-/* ===== 메인 컨테이너 ===== */
-main, .main, article, .content {
-  background: var(--bg-dark) !important;
+main, .main, .content {
+  background: rgba(26, 26, 26, 0.85) !important;
+  color: var(--text-light) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  border-radius: 12px !important;
+  margin: 1rem !important;
+  padding: 2rem !important;
+}
+
+article {
+  background: transparent !important;
   color: var(--text-light) !important;
 }
 
-/* ===== 헤더/네비게이션 ===== */
 header, nav, .navbar, .header {
-  background: linear-gradient(180deg, var(--bg-darker) 0%, var(--bg-dark) 100%) !important;
+  background: rgba(13, 13, 13, 0.9) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
   border-bottom: 1px solid var(--gold-dark) !important;
 }
 
@@ -70,7 +77,6 @@ header a:hover, nav a:hover, .navbar a:hover {
   text-shadow: 0 0 10px rgba(212, 175, 55, 0.5) !important;
 }
 
-/* ===== 사이트 제목 ===== */
 .site-title, h1.title, .logo {
   background: var(--gold-gradient) !important;
   -webkit-background-clip: text !important;
@@ -79,7 +85,6 @@ header a:hover, nav a:hover, .navbar a:hover {
   font-weight: 800 !important;
 }
 
-/* ===== H1 제목 ===== */
 h1 {
   font-size: 2.2rem !important;
   font-weight: 800 !important;
@@ -90,7 +95,6 @@ h1 {
   margin-bottom: 1.5rem !important;
 }
 
-/* ===== H2 제목 ===== */
 h2 {
   font-size: 1.8rem !important;
   font-weight: 800 !important;
@@ -99,20 +103,8 @@ h2 {
   color: var(--gold-primary) !important;
   border-bottom: 3px solid var(--gold-dark) !important;
   padding-bottom: 0.5rem !important;
-  position: relative !important;
 }
 
-h2::after {
-  content: '' !important;
-  position: absolute !important;
-  bottom: -3px !important;
-  left: 0 !important;
-  width: 60px !important;
-  height: 3px !important;
-  background: var(--gold-light) !important;
-}
-
-/* ===== H3 제목 ===== */
 h3 {
   font-size: 1.5rem !important;
   font-weight: 700 !important;
@@ -121,18 +113,15 @@ h3 {
   color: var(--gold-light) !important;
 }
 
-/* ===== H4, H5, H6 ===== */
 h4, h5, h6 {
   color: var(--gold-light) !important;
   font-weight: 600 !important;
 }
 
-/* ===== 본문 텍스트 ===== */
-p, li, span, div {
+p, li, span {
   color: var(--text-light) !important;
 }
 
-/* ===== 링크 ===== */
 a {
   color: var(--gold-primary) !important;
   text-decoration: none !important;
@@ -144,13 +133,14 @@ a:hover {
   text-shadow: 0 0 8px rgba(212, 175, 55, 0.4) !important;
 }
 
-/* ===== 테이블 (골드 테마) ===== */
 table {
   width: 100% !important;
   border-collapse: collapse !important;
   margin: 1.5rem 0 !important;
-  background: var(--bg-card) !important;
+  background: rgba(36, 36, 36, 0.9) !important;
   border: 1px solid var(--gold-dark) !important;
+  border-radius: 8px !important;
+  overflow: hidden !important;
 }
 
 th {
@@ -177,34 +167,35 @@ tr:hover {
   background-color: rgba(212, 175, 55, 0.1) !important;
 }
 
-/* ===== 카드/박스 ===== */
 .card, .box, .post-card, article.post, .entry {
-  background: var(--bg-card) !important;
+  background: rgba(36, 36, 36, 0.9) !important;
   border: 1px solid var(--gold-dark) !important;
-  border-radius: 8px !important;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
   transition: all 0.3s ease !important;
 }
 
 .card:hover, .post-card:hover {
   border-color: var(--gold-primary) !important;
-  box-shadow: 0 6px 20px rgba(212, 175, 55, 0.2) !important;
-  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 30px rgba(212, 175, 55, 0.3) !important;
+  transform: translateY(-3px) !important;
 }
 
-/* ===== 사이드바 ===== */
 aside, .sidebar {
-  background: var(--bg-card) !important;
+  background: rgba(36, 36, 36, 0.85) !important;
   border: 1px solid var(--gold-dark) !important;
-  border-radius: 8px !important;
+  border-radius: 12px !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
 }
 
-/* ===== 코드 블록 ===== */
 pre, code {
-  background: #2d2d2d !important;
+  background: rgba(45, 45, 45, 0.95) !important;
   border: 1px solid var(--gold-dark) !important;
   color: var(--gold-light) !important;
-  border-radius: 4px !important;
+  border-radius: 6px !important;
 }
 
 pre {
@@ -215,7 +206,6 @@ code {
   padding: 0.2rem 0.4rem !important;
 }
 
-/* ===== 인용문 ===== */
 blockquote {
   border-left: 4px solid var(--gold-primary) !important;
   background: rgba(212, 175, 55, 0.1) !important;
@@ -225,46 +215,44 @@ blockquote {
   font-style: italic !important;
 }
 
-/* ===== 버튼 ===== */
 button, .btn, input[type="submit"] {
   background: var(--gold-gradient) !important;
   color: var(--bg-darker) !important;
   border: none !important;
   padding: 0.75rem 1.5rem !important;
-  border-radius: 4px !important;
+  border-radius: 6px !important;
   font-weight: 600 !important;
   cursor: pointer !important;
   transition: all 0.3s ease !important;
 }
 
 button:hover, .btn:hover, input[type="submit"]:hover {
-  box-shadow: 0 4px 15px rgba(212, 175, 55, 0.4) !important;
+  box-shadow: 0 4px 20px rgba(212, 175, 55, 0.5) !important;
   transform: translateY(-2px) !important;
 }
 
-/* ===== 입력 필드 ===== */
 input, textarea, select {
-  background: var(--bg-card) !important;
+  background: rgba(36, 36, 36, 0.9) !important;
   border: 1px solid var(--gold-dark) !important;
   color: var(--text-light) !important;
   padding: 0.5rem !important;
-  border-radius: 4px !important;
+  border-radius: 6px !important;
 }
 
 input:focus, textarea:focus, select:focus {
   border-color: var(--gold-primary) !important;
   outline: none !important;
-  box-shadow: 0 0 8px rgba(212, 175, 55, 0.3) !important;
+  box-shadow: 0 0 10px rgba(212, 175, 55, 0.4) !important;
 }
 
-/* ===== 푸터 ===== */
 footer, .footer {
-  background: var(--bg-darker) !important;
+  background: rgba(13, 13, 13, 0.95) !important;
   border-top: 1px solid var(--gold-dark) !important;
   color: var(--text-muted) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
 }
 
-/* ===== 스크롤바 (웹킷) ===== */
 ::-webkit-scrollbar {
   width: 10px !important;
 }
@@ -282,27 +270,23 @@ footer, .footer {
   background: var(--gold-primary) !important;
 }
 
-/* ===== 선택 영역 ===== */
 ::selection {
   background: var(--gold-primary) !important;
   color: var(--bg-darker) !important;
 }
 
-/* ===== 본문 너비 통일 ===== */
 article.max-w-prose {
   max-width: 65ch !important;
   margin: 0 auto !important;
 }
 
-/* ===== 구분선 ===== */
 hr {
   border: none !important;
   height: 1px !important;
-  background: linear-gradient(90deg, transparent, var(--gold-dark), transparent) !important;
+  background: linear-gradient(90deg, transparent, var(--gold-primary), transparent) !important;
   margin: 2rem 0 !important;
 }
 
-/* ===== 리스트 스타일 ===== */
 ul li::marker {
   color: var(--gold-primary) !important;
 }
@@ -311,13 +295,11 @@ ol li::marker {
   color: var(--gold-primary) !important;
 }
 
-/* ===== 날짜/메타 정보 ===== */
 time, .date, .meta, .post-meta {
   color: var(--gold-dark) !important;
   font-size: 0.9rem !important;
 }
 
-/* ===== 태그 ===== */
 .tag, .category {
   background: rgba(212, 175, 55, 0.2) !important;
   color: var(--gold-light) !important;
@@ -327,9 +309,8 @@ time, .date, .meta, .post-meta {
   border: 1px solid var(--gold-dark) !important;
 }
 
-/* ===== 페이지네이션 ===== */
 .pagination a, .page-link {
-  background: var(--bg-card) !important;
+  background: rgba(36, 36, 36, 0.9) !important;
   color: var(--gold-primary) !important;
   border: 1px solid var(--gold-dark) !important;
 }
@@ -344,5 +325,3 @@ time, .date, .meta, .post-meta {
   color: var(--bg-darker) !important;
 }
 </style>
-
-
