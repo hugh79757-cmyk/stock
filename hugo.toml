@@ -3,10 +3,16 @@ languageCode = "ko-KR"
 title = "캔들트렌드 - 주식정보 블로그"
 theme = "congo"
 defaultContentLanguage = "ko"
-defaultContentLanguageInSubdir = false
 
 [pagination]
   pagerSize = 20
+
+[languages]
+  [languages.ko]
+    languageName = "한국어"
+    weight = 1
+    [languages.ko.params]
+      displayName = "KO"
 
 [params]
   colorScheme = "avocado"
@@ -42,19 +48,20 @@ defaultContentLanguageInSubdir = false
   [params.footer]
     showScrollToTop = true
 
-[menu]
-  [[menu.main]]
-    name = "홈"
-    url = "/"
-    weight = 1
-  [[menu.main]]
-    name = "주식분석"
-    url = "/posts/"
-    weight = 2
-  [[menu.main]]
-    name = "IPO"
-    url = "/categories/ipo/"
-    weight = 3
+[[menu.main]]
+  name = "홈"
+  pageRef = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "주식분석"
+  pageRef = "posts"
+  weight = 2
+
+[[menu.main]]
+  name = "IPO"
+  pageRef = "categories/ipo"
+  weight = 3
 
 [taxonomies]
   category = "categories"
