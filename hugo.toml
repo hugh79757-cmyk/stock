@@ -49,11 +49,11 @@ defaultContentLanguageInSubdir = false
     weight = 1
   [[menu.main]]
     name = "주식분석"
-    url = "/ko/posts/"
+    url = "/posts/"
     weight = 2
   [[menu.main]]
     name = "IPO"
-    url = "/ko/categories/ipo/"
+    url = "/categories/ipo/"
     weight = 3
 
 [taxonomies]
