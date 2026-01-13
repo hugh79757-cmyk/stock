@@ -2,6 +2,8 @@ baseURL = "https://stock.informationhot.kr/"
 languageCode = "ko-KR"
 title = "캔들트렌드 - 주식정보 블로그"
 theme = "congo"
+defaultContentLanguage = "ko"
+defaultContentLanguageInSubdir = false
 
 [pagination]
   pagerSize = 20
@@ -47,11 +49,11 @@ theme = "congo"
     weight = 1
   [[menu.main]]
     name = "주식분석"
-    url = "/posts/"
+    url = "/ko/posts/"
     weight = 2
   [[menu.main]]
     name = "IPO"
-    url = "/categories/ipo/"
+    url = "/ko/categories/ipo/"
     weight = 3
 
 [taxonomies]
