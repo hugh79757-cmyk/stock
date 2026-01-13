@@ -1,8 +1,4 @@
 ---
-title: "캔들 트렌드"
-description: "주식 투자 정보와 분석을 제공합니다"
-
-cascade:
-  showDate: true
-  showReadingTime: true
+title: "캔들트렌드"
+description: "초보 투자자를 위한 쉬운 주식 분석 블로그"
 ---

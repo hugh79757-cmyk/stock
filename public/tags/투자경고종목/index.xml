@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>투자경고종목 on 캔들 트렌드</title>
-    <link>http://localhost:55876/tags/%ED%88%AC%EC%9E%90%EA%B2%BD%EA%B3%A0%EC%A2%85%EB%AA%A9/</link>
+    <link>http://localhost:1313/tags/%ED%88%AC%EC%9E%90%EA%B2%BD%EA%B3%A0%EC%A2%85%EB%AA%A9/</link>
     <description>Recent content in 투자경고종목 on 캔들 트렌드</description>
     <generator>Hugo</generator>
     <language>ko-KR</language>
-    <lastBuildDate>Sun, 04 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:55876/tags/%ED%88%AC%EC%9E%90%EA%B2%BD%EA%B3%A0%EC%A2%85%EB%AA%A9/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%ED%88%AC%EC%9E%90%EA%B2%BD%EA%B3%A0%EC%A2%85%EB%AA%A9/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>휴림로봇 주가 급등! 자율주행 휠체어 상용화 기대감에 8천원대 돌파 거래정지 예의주시</title>
+      <link>http://localhost:1313/ko/posts/2026-01-05-%ED%9C%B4%EB%A6%BC%EC%A3%BC%EA%B0%80/</link>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ko/posts/2026-01-05-%ED%9C%B4%EB%A6%BC%EC%A3%BC%EA%B0%80/</guid>
+      <description></description>
+    </item>
     <item>
       <title>휴림로봇 주가 분석 투자경고 속 급등락 반복 CES 2026 기대감 전망</title>
-      <link>http://localhost:55876/ko/posts/2026-01-04-hurim/</link>
+      <link>http://localhost:1313/ko/posts/2026-01-04-hurim/</link>
       <pubDate>Sun, 04 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55876/ko/posts/2026-01-04-hurim/</guid>
+      <guid>http://localhost:1313/ko/posts/2026-01-04-hurim/</guid>
       <description></description>
     </item>
   </channel>

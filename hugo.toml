@@ -1,6 +1,6 @@
 baseURL = "https://stock.informationhot.kr/"
 languageCode = "ko-KR"
-title = "캔들트렌드 - 주식정보 블로그"
+title = "캔들트렌드"
 theme = "congo"
 defaultContentLanguage = "ko"
 
@@ -12,54 +12,28 @@ defaultContentLanguage = "ko"
     languageName = "한국어"
     weight = 1
 
-[params]
-  colorScheme = "avocado"
-  defaultAppearance = "light"
-  autoSwitchAppearance = true
-  favicon = "/images/candle-favicon.png"
-  
-  [params.assets]
-    customCSS = ["css/custom.css"]
-  
-  [params.homepage]
-    layout = "profile"
-    showRecent = true
-    recentLimit = 2
-
-  [params.list]
-    showBreadcrumbs = true
-    showTableOfContents = false
-    groupByYear = false
-
-  [params.article]
-    showDate = true
-    showReadingTime = true
-    showTaxonomies = true
-    showTableOfContents = true
-    showRelatedContent = true
-
-  [params.author]
-    name = "캔들트렌드"
-    headline = "주식 투자 정보와 분석을 제공합니다"
-    bio = "초보 투자자를 위한 쉬운 주식 분석 블로그"
-
-  [params.footer]
-    showScrollToTop = true
-
 [menu]
   [[menu.main]]
     name = "홈"
-    url = "/"
+    pageRef = "/"
     weight = 1
   [[menu.main]]
     name = "주식분석"
-    url = "/ko/posts/"
+    pageRef = "posts"
     weight = 2
   [[menu.main]]
     name = "IPO"
-    url = "/ko/categories/ipo/"
+    pageRef = "categories/ipo"
     weight = 3
 
 [taxonomies]
   category = "categories"
   tag = "tags"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

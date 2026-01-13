@@ -1,0 +1,60 @@
+<!-- Featured 포스트 섹션 -->
+<section class="featured-section">
+  <h2 class="section-title">최신 글</h2>
+  
+  <div class="featured-grid">
+    {{ $pages := where .Site.RegularPages "Type" "posts" }}
+    {{ if not $pages }}
+      {{ $pages = .Site.RegularPages }}
+    {{ end }}
+    {{ $pages = first 3 $pages }}
+    
+    {{ range $index, $page := $pages }}
+      {{ if eq $index 0 }}
+        <!-- 메인 Featured -->
+        <a href="{{ $page.RelPermalink }}" class="featured-card featured-main">
+          {{ $thumbnail := "" }}
+          {{ with $page.Resources.GetMatch "feature*" }}
+            {{ $thumbnail = .RelPermalink }}
+          {{ end }}
+          {{ with $page.Params.thumbnail }}
+            {{ $thumbnail = . }}
+          {{ end }}
+          {{ with $page.Params.image }}
+            {{ $thumbnail = . }}
+          {{ end }}
+          {{ if $thumbnail }}
+            <img src="{{ $thumbnail }}" alt="{{ $page.Title }}" class="featured-card-thumbnail">
+          {{ end }}
+          <div class="featured-card-content">
+            <h3 class="featured-card-title">{{ $page.Title }}</h3>
+            <p class="featured-card-meta">
+              <time>{{ $page.Date.Format "2006년 1월 2일" }}</time>
+            </p>
+          </div>
+        </a>
+      {{ else }}
+        <!-- 서브 Featured -->
+        <a href="{{ $page.RelPermalink }}" class="featured-card">
+          <div class="featured-card-content">
+            <h3 class="featured-card-title">{{ $page.Title }}</h3>
+            <p class="featured-card-meta">
+              <time>{{ $page.Date.Format "2006년 1월 2일" }}</time>
+            </p>
+          </div>
+        </a>
+      {{ end }}
+    {{ end }}
+  </div>
+  
+  <!-- 글 목록 사이 광고 -->
+  <div class="ad-container">
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-6677996696534146"
+         data-ad-slot="auto"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
+</section>
