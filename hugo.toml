@@ -2,13 +2,14 @@ baseURL = "https://stock.informationhot.kr/"
 languageCode = "ko-KR"
 title = "캔들트렌드 - 주식정보 블로그"
 theme = "congo"
-paginate = 20
+
+[pagination]
+  pagerSize = 20
 
 [params]
   colorScheme = "avocado"
   defaultAppearance = "light"
   autoSwitchAppearance = true
-  showScrollToTop = true
   favicon = "/images/candle-favicon.png"
   
   [params.assets]
@@ -35,6 +36,9 @@ paginate = 20
     name = "캔들트렌드"
     headline = "주식 투자 정보와 분석을 제공합니다"
     bio = "초보 투자자를 위한 쉬운 주식 분석 블로그"
+
+  [params.footer]
+    showScrollToTop = true
 
 [menu]
   [[menu.main]]
