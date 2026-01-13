@@ -1,3 +1,4 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6677996696534146" crossorigin="anonymous"></script>
 <meta name="google-site-verification" content="gWEAZRdroAJvrxbYNgysEL8U7Oq7uIPjKfI6sZutBLs" />
 <meta name="naver-site-verification" content="5b0af6c49635ecc7a0a340c148a7918b09e4c01c" />
@@ -23,11 +24,16 @@
   --text-muted: #a0a0a0;
 }
 
+* {
+  box-sizing: border-box !important;
+}
+
 body {
   background: url('/images/gold-bg.png') no-repeat center center fixed !important;
   background-size: cover !important;
   color: var(--text-light) !important;
   min-height: 100vh !important;
+  overflow-x: hidden !important;
 }
 
 body::before {
@@ -43,6 +49,7 @@ body::before {
 
 html {
   background: var(--bg-darker) !important;
+  overflow-x: hidden !important;
 }
 
 main, .main, .content {
@@ -53,11 +60,13 @@ main, .main, .content {
   border-radius: 12px !important;
   margin: 1rem !important;
   padding: 2rem !important;
+  max-width: 100% !important;
 }
 
 article {
   background: transparent !important;
   color: var(--text-light) !important;
+  max-width: 100% !important;
 }
 
 header, nav, .navbar, .header {
@@ -93,6 +102,7 @@ h1 {
   -webkit-text-fill-color: transparent !important;
   background-clip: text !important;
   margin-bottom: 1.5rem !important;
+  word-break: keep-all !important;
 }
 
 h2 {
@@ -103,6 +113,7 @@ h2 {
   color: var(--gold-primary) !important;
   border-bottom: 3px solid var(--gold-dark) !important;
   padding-bottom: 0.5rem !important;
+  word-break: keep-all !important;
 }
 
 h3 {
@@ -111,6 +122,7 @@ h3 {
   margin-top: 2rem !important;
   margin-bottom: 0.75rem !important;
   color: var(--gold-light) !important;
+  word-break: keep-all !important;
 }
 
 h4, h5, h6 {
@@ -120,6 +132,7 @@ h4, h5, h6 {
 
 p, li, span {
   color: var(--text-light) !important;
+  word-break: keep-all !important;
 }
 
 a {
@@ -133,14 +146,20 @@ a:hover {
   text-shadow: 0 0 8px rgba(212, 175, 55, 0.4) !important;
 }
 
-table {
+/* 테이블 반응형 컨테이너 */
+.table-wrapper, table {
   width: 100% !important;
+  max-width: 100% !important;
+  overflow-x: auto !important;
+  -webkit-overflow-scrolling: touch !important;
+}
+
+table {
   border-collapse: collapse !important;
   margin: 1.5rem 0 !important;
   background: rgba(36, 36, 36, 0.9) !important;
   border: 1px solid var(--gold-dark) !important;
   border-radius: 8px !important;
-  overflow: hidden !important;
 }
 
 th {
@@ -150,6 +169,7 @@ th {
   padding: 0.75rem 1rem !important;
   text-align: left !important;
   border: 1px solid var(--gold-dark) !important;
+  white-space: nowrap !important;
 }
 
 td {
@@ -196,11 +216,12 @@ pre, code {
   border: 1px solid var(--gold-dark) !important;
   color: var(--gold-light) !important;
   border-radius: 6px !important;
+  max-width: 100% !important;
+  overflow-x: auto !important;
 }
 
 pre {
   padding: 1rem !important;
-  overflow-x: auto !important;
 }
 
 code {
@@ -238,6 +259,7 @@ input, textarea, select {
   color: var(--text-light) !important;
   padding: 0.5rem !important;
   border-radius: 6px !important;
+  max-width: 100% !important;
 }
 
 input:focus, textarea:focus, select:focus {
@@ -277,7 +299,7 @@ footer, .footer {
 }
 
 article.max-w-prose {
-  max-width: 65ch !important;
+  max-width: 100% !important;
   margin: 0 auto !important;
 }
 
@@ -326,77 +348,65 @@ time, .date, .meta, .post-meta {
   color: var(--bg-darker) !important;
 }
 
+/* 이미지 반응형 */
+img {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
 /* ===== 모바일 반응형 (태블릿 768px 이하) ===== */
 @media screen and (max-width: 768px) {
+  body {
+    font-size: 16px !important;
+  }
+
   main, .main, .content {
     margin: 0.5rem !important;
     padding: 1rem !important;
     border-radius: 8px !important;
+    width: calc(100% - 1rem) !important;
   }
 
   h1 {
-    font-size: 1.6rem !important;
-    line-height: 1.3 !important;
-    word-break: keep-all !important;
+    font-size: 1.5rem !important;
+    line-height: 1.4 !important;
   }
 
   h2 {
-    font-size: 1.4rem !important;
-    margin-top: 2rem !important;
-  }
-
-  h3 {
-    font-size: 1.2rem !important;
+    font-size: 1.3rem !important;
     margin-top: 1.5rem !important;
   }
 
+  h3 {
+    font-size: 1.15rem !important;
+    margin-top: 1.25rem !important;
+  }
+
   p, li, span {
-    font-size: 0.95rem !important;
+    font-size: 1rem !important;
     line-height: 1.7 !important;
   }
 
-  /* 테이블 가로 스크롤 */
-  table {
-    display: block !important;
-    overflow-x: auto !important;
-    white-space: nowrap !important;
-    -webkit-overflow-scrolling: touch !important;
-  }
-
   th, td {
-    padding: 0.5rem 0.75rem !important;
+    padding: 0.5rem !important;
     font-size: 0.85rem !important;
   }
 
-  /* 코드 블록 */
   pre {
     padding: 0.75rem !important;
-    font-size: 0.8rem !important;
-  }
-
-  code {
     font-size: 0.85rem !important;
   }
 
-  /* 인용문 */
   blockquote {
     padding: 0.75rem 1rem !important;
     margin: 1rem 0 !important;
   }
 
-  /* 이미지 반응형 */
-  img {
-    max-width: 100% !important;
-    height: auto !important;
-  }
-
-  /* 사이드바 숨김 또는 하단 배치 */
   aside, .sidebar {
     margin-top: 1rem !important;
     width: 100% !important;
   }
 
-  /* 네비게이션 */
   header, nav, .navbar {
     padding: 0.5rem !important;
   }
@@ -406,20 +416,16 @@ time, .date, .meta, .post-meta {
     padding: 0.5rem !important;
   }
 
-  /* 버튼 */
   button, .btn, input[type="submit"] {
     padding: 0.6rem 1rem !important;
     font-size: 0.9rem !important;
-    width: 100% !important;
   }
 
-  /* 태그 */
   .tag, .category {
     font-size: 0.75rem !important;
     padding: 0.2rem 0.5rem !important;
   }
 
-  /* 페이지네이션 */
   .pagination {
     flex-wrap: wrap !important;
     gap: 0.5rem !important;
@@ -437,29 +443,29 @@ time, .date, .meta, .post-meta {
     margin: 0.25rem !important;
     padding: 0.75rem !important;
     border-radius: 6px !important;
+    width: calc(100% - 0.5rem) !important;
   }
 
   h1 {
-    font-size: 1.4rem !important;
+    font-size: 1.3rem !important;
   }
 
   h2 {
-    font-size: 1.25rem !important;
-    margin-top: 1.5rem !important;
-    border-bottom-width: 2px !important;
+    font-size: 1.15rem !important;
+    margin-top: 1.25rem !important;
   }
 
   h3 {
-    font-size: 1.1rem !important;
+    font-size: 1.05rem !important;
   }
 
   p, li, span {
-    font-size: 0.9rem !important;
+    font-size: 0.95rem !important;
     line-height: 1.65 !important;
   }
 
   th, td {
-    padding: 0.4rem 0.5rem !important;
+    padding: 0.4rem !important;
     font-size: 0.8rem !important;
   }
 
@@ -473,13 +479,11 @@ time, .date, .meta, .post-meta {
     font-size: 0.9rem !important;
   }
 
-  /* 푸터 */
   footer, .footer {
     padding: 1rem 0.5rem !important;
     font-size: 0.8rem !important;
   }
 
-  /* 스크롤바 숨김 (모바일) */
   ::-webkit-scrollbar {
     width: 4px !important;
   }
@@ -492,7 +496,7 @@ time, .date, .meta, .post-meta {
   }
 
   h1 {
-    font-size: 1.5rem !important;
+    font-size: 1.4rem !important;
     margin-bottom: 1rem !important;
   }
 }
