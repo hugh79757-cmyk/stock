@@ -15,9 +15,9 @@ paginate = 20
     customCSS = ["css/custom.css"]
   
   [params.homepage]
-    layout = "page"
+    layout = "profile"
     showRecent = true
-    recentLimit = 50
+    recentLimit = 2
 
   [params.list]
     showBreadcrumbs = true
@@ -33,6 +33,8 @@ paginate = 20
 
   [params.author]
     name = "캔들트렌드"
+    headline = "주식 투자 정보와 분석을 제공합니다"
+    bio = "초보 투자자를 위한 쉬운 주식 분석 블로그"
 
 [menu]
   [[menu.main]]
@@ -40,17 +42,13 @@ paginate = 20
     url = "/"
     weight = 1
   [[menu.main]]
-    name = "전체글"
+    name = "주식분석"
     url = "/posts/"
     weight = 2
   [[menu.main]]
     name = "IPO"
     url = "/categories/ipo/"
     weight = 3
-  [[menu.main]]
-    name = "주식분석"
-    url = "/categories/주식분석/"
-    weight = 4
 
 [taxonomies]
   category = "categories"
