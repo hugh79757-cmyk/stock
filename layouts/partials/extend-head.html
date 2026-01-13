@@ -200,6 +200,7 @@ pre, code {
 
 pre {
   padding: 1rem !important;
+  overflow-x: auto !important;
 }
 
 code {
@@ -323,5 +324,176 @@ time, .date, .meta, .post-meta {
 .pagination .active, .page-link.active {
   background: var(--gold-primary) !important;
   color: var(--bg-darker) !important;
+}
+
+/* ===== 모바일 반응형 (태블릿 768px 이하) ===== */
+@media screen and (max-width: 768px) {
+  main, .main, .content {
+    margin: 0.5rem !important;
+    padding: 1rem !important;
+    border-radius: 8px !important;
+  }
+
+  h1 {
+    font-size: 1.6rem !important;
+    line-height: 1.3 !important;
+    word-break: keep-all !important;
+  }
+
+  h2 {
+    font-size: 1.4rem !important;
+    margin-top: 2rem !important;
+  }
+
+  h3 {
+    font-size: 1.2rem !important;
+    margin-top: 1.5rem !important;
+  }
+
+  p, li, span {
+    font-size: 0.95rem !important;
+    line-height: 1.7 !important;
+  }
+
+  /* 테이블 가로 스크롤 */
+  table {
+    display: block !important;
+    overflow-x: auto !important;
+    white-space: nowrap !important;
+    -webkit-overflow-scrolling: touch !important;
+  }
+
+  th, td {
+    padding: 0.5rem 0.75rem !important;
+    font-size: 0.85rem !important;
+  }
+
+  /* 코드 블록 */
+  pre {
+    padding: 0.75rem !important;
+    font-size: 0.8rem !important;
+  }
+
+  code {
+    font-size: 0.85rem !important;
+  }
+
+  /* 인용문 */
+  blockquote {
+    padding: 0.75rem 1rem !important;
+    margin: 1rem 0 !important;
+  }
+
+  /* 이미지 반응형 */
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  /* 사이드바 숨김 또는 하단 배치 */
+  aside, .sidebar {
+    margin-top: 1rem !important;
+    width: 100% !important;
+  }
+
+  /* 네비게이션 */
+  header, nav, .navbar {
+    padding: 0.5rem !important;
+  }
+
+  nav a, .navbar a {
+    font-size: 0.9rem !important;
+    padding: 0.5rem !important;
+  }
+
+  /* 버튼 */
+  button, .btn, input[type="submit"] {
+    padding: 0.6rem 1rem !important;
+    font-size: 0.9rem !important;
+    width: 100% !important;
+  }
+
+  /* 태그 */
+  .tag, .category {
+    font-size: 0.75rem !important;
+    padding: 0.2rem 0.5rem !important;
+  }
+
+  /* 페이지네이션 */
+  .pagination {
+    flex-wrap: wrap !important;
+    gap: 0.5rem !important;
+  }
+
+  .pagination a, .page-link {
+    padding: 0.5rem 0.75rem !important;
+    font-size: 0.85rem !important;
+  }
+}
+
+/* ===== 모바일 반응형 (스마트폰 480px 이하) ===== */
+@media screen and (max-width: 480px) {
+  main, .main, .content {
+    margin: 0.25rem !important;
+    padding: 0.75rem !important;
+    border-radius: 6px !important;
+  }
+
+  h1 {
+    font-size: 1.4rem !important;
+  }
+
+  h2 {
+    font-size: 1.25rem !important;
+    margin-top: 1.5rem !important;
+    border-bottom-width: 2px !important;
+  }
+
+  h3 {
+    font-size: 1.1rem !important;
+  }
+
+  p, li, span {
+    font-size: 0.9rem !important;
+    line-height: 1.65 !important;
+  }
+
+  th, td {
+    padding: 0.4rem 0.5rem !important;
+    font-size: 0.8rem !important;
+  }
+
+  pre {
+    padding: 0.5rem !important;
+    font-size: 0.75rem !important;
+  }
+
+  blockquote {
+    padding: 0.5rem 0.75rem !important;
+    font-size: 0.9rem !important;
+  }
+
+  /* 푸터 */
+  footer, .footer {
+    padding: 1rem 0.5rem !important;
+    font-size: 0.8rem !important;
+  }
+
+  /* 스크롤바 숨김 (모바일) */
+  ::-webkit-scrollbar {
+    width: 4px !important;
+  }
+}
+
+/* ===== 가로 모드 대응 ===== */
+@media screen and (max-height: 500px) and (orientation: landscape) {
+  main, .main, .content {
+    padding: 0.75rem !important;
+  }
+
+  h1 {
+    font-size: 1.5rem !important;
+    margin-bottom: 1rem !important;
+  }
 }
 </style>

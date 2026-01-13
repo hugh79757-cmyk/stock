@@ -2,6 +2,7 @@ baseURL = "https://stock.informationhot.kr/"
 languageCode = "ko-KR"
 title = "캔들트렌드 - 주식정보 블로그"
 theme = "congo"
+paginate = 20
 
 [params]
   colorScheme = "avocado"
@@ -14,9 +15,14 @@ theme = "congo"
     customCSS = ["css/custom.css"]
   
   [params.homepage]
-    layout = "profile"
+    layout = "page"
     showRecent = true
-    recentLimit = 10
+    recentLimit = 50
+
+  [params.list]
+    showBreadcrumbs = true
+    showTableOfContents = false
+    groupByYear = false
 
   [params.article]
     showDate = true
@@ -34,13 +40,17 @@ theme = "congo"
     url = "/"
     weight = 1
   [[menu.main]]
+    name = "전체글"
+    url = "/posts/"
+    weight = 2
+  [[menu.main]]
     name = "IPO"
     url = "/categories/ipo/"
-    weight = 2
+    weight = 3
   [[menu.main]]
     name = "주식분석"
     url = "/categories/주식분석/"
-    weight = 3
+    weight = 4
 
 [taxonomies]
   category = "categories"
