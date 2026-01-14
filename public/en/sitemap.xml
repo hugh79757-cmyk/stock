@@ -8,16 +8,16 @@
   
     
       <url>
-            <loc>http://localhost:1313/en/</loc>
+            <loc>https://stock.informationhot.kr/en/</loc>
             <xhtml:link
               rel="alternate"
               hreflang="ko"
-              href="http://localhost:1313/"
+              href="https://stock.informationhot.kr/"
               />
             <xhtml:link
               rel="alternate"
               hreflang="en"
-              href="http://localhost:1313/en/"
+              href="https://stock.informationhot.kr/en/"
               />
           </url>
     

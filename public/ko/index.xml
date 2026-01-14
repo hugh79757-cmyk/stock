@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>캔들트렌드 on 캔들 트렌드</title>
-    <link>http://localhost:1313/ko/</link>
+    <link>https://stock.informationhot.kr/ko/</link>
     <description>Recent content in 캔들트렌드 on 캔들 트렌드</description>
     <generator>Hugo</generator>
     <language>ko-KR</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/ko/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://stock.informationhot.kr/ko/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

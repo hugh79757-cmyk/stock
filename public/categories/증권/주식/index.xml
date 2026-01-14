@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>증권/주식 on 캔들 트렌드</title>
-    <link>http://localhost:1313/categories/%EC%A6%9D%EA%B6%8C/%EC%A3%BC%EC%8B%9D/</link>
+    <link>https://stock.informationhot.kr/categories/%EC%A6%9D%EA%B6%8C/%EC%A3%BC%EC%8B%9D/</link>
     <description>Recent content in 증권/주식 on 캔들 트렌드</description>
     <generator>Hugo</generator>
     <language>ko-KR</language>
     <lastBuildDate>Mon, 12 Jan 2026 23:26:19 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/%EC%A6%9D%EA%B6%8C/%EC%A3%BC%EC%8B%9D/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://stock.informationhot.kr/categories/%EC%A6%9D%EA%B6%8C/%EC%A3%BC%EC%8B%9D/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>한전기술 vs 두산에너빌리티: 원전 관련주 투자한다면 어디가 유리할까?</title>
-      <link>http://localhost:1313/ko/posts/hanjeongisul-vs-dusaneneobilriti-wonjeon/</link>
+      <link>https://stock.informationhot.kr/ko/posts/hanjeongisul-vs-dusaneneobilriti-wonjeon/</link>
       <pubDate>Mon, 12 Jan 2026 23:26:19 +0900</pubDate>
-      <guid>http://localhost:1313/ko/posts/hanjeongisul-vs-dusaneneobilriti-wonjeon/</guid>
+      <guid>https://stock.informationhot.kr/ko/posts/hanjeongisul-vs-dusaneneobilriti-wonjeon/</guid>
       <description></description>
     </item>
     <item>
       <title>2026년 한전기술 주가 전망: 원전 르네상스 수혜주로 주목받는 이유 총정리</title>
-      <link>http://localhost:1313/ko/posts/2026nyeon-hanjeongisul-juga-jeonmang/</link>
+      <link>https://stock.informationhot.kr/ko/posts/2026nyeon-hanjeongisul-juga-jeonmang/</link>
       <pubDate>Mon, 12 Jan 2026 23:25:19 +0900</pubDate>
-      <guid>http://localhost:1313/ko/posts/2026nyeon-hanjeongisul-juga-jeonmang/</guid>
+      <guid>https://stock.informationhot.kr/ko/posts/2026nyeon-hanjeongisul-juga-jeonmang/</guid>
       <description></description>
     </item>
   </channel>

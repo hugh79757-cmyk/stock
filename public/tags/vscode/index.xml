@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>VSCode on 캔들 트렌드</title>
-    <link>http://localhost:1313/tags/vscode/</link>
+    <link>https://stock.informationhot.kr/tags/vscode/</link>
     <description>Recent content in VSCode on 캔들 트렌드</description>
     <generator>Hugo</generator>
     <language>ko-KR</language>
     <lastBuildDate>Sun, 04 Jan 2026 08:59:29 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/vscode/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://stock.informationhot.kr/tags/vscode/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Front Matter CMS로 Hugo 블로그 시작하기</title>
-      <link>http://localhost:1313/ko/posts/2026-01-04-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%BD%98%ED%85%90%EC%B8%A0/</link>
+      <link>https://stock.informationhot.kr/ko/posts/2026-01-04-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%BD%98%ED%85%90%EC%B8%A0/</link>
       <pubDate>Sun, 04 Jan 2026 08:59:29 +0000</pubDate>
-      <guid>http://localhost:1313/ko/posts/2026-01-04-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%BD%98%ED%85%90%EC%B8%A0/</guid>
+      <guid>https://stock.informationhot.kr/ko/posts/2026-01-04-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%BD%98%ED%85%90%EC%B8%A0/</guid>
       <description></description>
     </item>
   </channel>
