@@ -1,19 +1,9 @@
 ---
 title: 'LG전자 주가 분석: 2026년 상반기 실적 전망 및 투자 포인트 완벽 가이드'
 description: 2025년 실적 부진 이후 LG전자의 2026년 반등 시나리오, 사업부별 성장성, 투자 목표가를 한눈에 정리한 분석 가이드입니다.
-draft: false
-tags:
-- LG전자
-- 주가분석
-- 실적전망
-- 투자포인트
-- 2026년
-- 구조조정
-- 원가개선
-categories:
-- 투자정보
-- 주식분석
-date: 2026-01-14T17:38:02+09:00
+tags: [LG전자, 주가분석, 실적전망, 투자포인트, 2026년, 구조조정, 원가개선]
+categories: [투자정보, 주식분석]
+date: 2026-01-14 18:20:00+09:00
 slug: lgjeonja-juga-bunseok-2026nyeon
 image: "thumbnail.webp"
 cover:
