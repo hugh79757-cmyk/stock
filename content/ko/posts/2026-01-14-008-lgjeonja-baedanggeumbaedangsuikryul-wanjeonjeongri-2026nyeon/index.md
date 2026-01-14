@@ -13,8 +13,9 @@ tags:
 categories:
 - 배당투자
 - 주식정보
-date: 2026-01-14T16:58:23+09:00
+date: 2026-01-14T17:38:02+09:00
 slug: lgjeonja-baedanggeumbaedangsuikryul-wanjeonjeongri-2026nyeon
+image: "thumbnail.webp"
 cover:
   image: "thumbnail.webp"
   alt: ""

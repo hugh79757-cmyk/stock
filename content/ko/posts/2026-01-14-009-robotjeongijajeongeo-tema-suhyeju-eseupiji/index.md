@@ -13,8 +13,9 @@ tags:
 categories:
 - 주식
 - 테마분석
-date: 2026-01-14T16:58:23+09:00
+date: 2026-01-14T17:38:02+09:00
 slug: robotjeongijajeongeo-tema-suhyeju-eseupiji
+image: "thumbnail.webp"
 cover:
   image: "thumbnail.webp"
   alt: ""

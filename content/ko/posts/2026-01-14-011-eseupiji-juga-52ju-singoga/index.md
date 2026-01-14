@@ -13,8 +13,9 @@ tags:
 categories:
 - 주식
 - 시장분석
-date: 2026-01-14T16:57:23+09:00
+date: 2026-01-14T17:37:02+09:00
 slug: eseupiji-juga-52ju-singoga
+image: "thumbnail.webp"
 cover:
   image: "thumbnail.webp"
   alt: ""
