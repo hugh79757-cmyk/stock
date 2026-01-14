@@ -14,14 +14,19 @@
         <!-- 메인 Featured -->
         <a href="{{ $page.RelPermalink }}" class="featured-card featured-main">
           {{ $thumbnail := "" }}
-          {{ with $page.Resources.GetMatch "feature*" }}
+          {{ with $page.Resources.GetMatch "thumbnail*" }}
             {{ $thumbnail = .RelPermalink }}
-          {{ end }}
-          {{ with $page.Params.thumbnail }}
-            {{ $thumbnail = . }}
+          {{ else }}
+            {{ with $page.Resources.GetMatch "cover*" }}
+              {{ $thumbnail = .RelPermalink }}
+            {{ else }}
+              {{ with $page.Resources.GetMatch "feature*" }}
+                {{ $thumbnail = .RelPermalink }}
+              {{ end }}
+            {{ end }}
           {{ end }}
           {{ with $page.Params.image }}
-            {{ $thumbnail = . }}
+            {{ $thumbnail = (printf "%s%s" $page.RelPermalink .) }}
           {{ end }}
           {{ if $thumbnail }}
             <img src="{{ $thumbnail }}" alt="{{ $page.Title }}" class="featured-card-thumbnail">
@@ -36,6 +41,20 @@
       {{ else }}
         <!-- 서브 Featured -->
         <a href="{{ $page.RelPermalink }}" class="featured-card">
+          {{ $thumbnail := "" }}
+          {{ with $page.Resources.GetMatch "thumbnail*" }}
+            {{ $thumbnail = .RelPermalink }}
+          {{ else }}
+            {{ with $page.Resources.GetMatch "cover*" }}
+              {{ $thumbnail = .RelPermalink }}
+            {{ end }}
+          {{ end }}
+          {{ with $page.Params.image }}
+            {{ $thumbnail = (printf "%s%s" $page.RelPermalink .) }}
+          {{ end }}
+          {{ if $thumbnail }}
+            <img src="{{ $thumbnail }}" alt="{{ $page.Title }}" class="featured-card-thumbnail">
+          {{ end }}
           <div class="featured-card-content">
             <h3 class="featured-card-title">{{ $page.Title }}</h3>
             <p class="featured-card-meta">
