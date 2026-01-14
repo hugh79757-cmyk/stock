@@ -3,13 +3,9 @@ title: 'LG전자 배당금·배당수익률 완전정리: 2026년 배당락일·
 description: LG전자의 과거 배당 정책, 2026년 예상 배당금 및 배당수익률, 배당락일·지급일을 정리한 배당 투자자 필독 가이드입니다.
 tags: [LG전자배당금, 배당수익률, 배당락일, 배당지급일, 배당투자, 2026년배당, 중간배당]
 categories: [배당투자, 주식정보]
-date: 2026-01-14 18:40:35+09:00
+date: 2026-01-14 18:48:30+09:00
 slug: lgjeonja-baedanggeumbaedangsuikryul-wanjeonjeongri-2026nyeon
 image: "thumbnail.webp"
-cover:
-  image: "thumbnail.webp"
-  alt: ""
-  hidden: false
 ---
 **"실적만큼 중요한 게 배당입니다."** 전자 주가가 회복되면서 배당 투자자들의 관심도 높아지고 있습니다. 2025년 실적 부진에도 불구하고 LG전자가 **배당을 유지한 이유**는 무엇일까요? 2026년에는 **실적 개선과 함께 배당도 증가**할까요? 이전 포스트의 '실적 반등'에 이어, 이번 글에서는 **[LG전자 주가](https://finance.naver.com/item/main.naver?code=066570)** 의 배당 투자 가치를 심층 분석하겠습니다.
 
