@@ -3,7 +3,7 @@ title: 로봇·전기자전거 테마 수혜주 에스피지, 주가 상승 모�
 description: 에스피지가 로봇 감속기와 전기자전거 테마 핵심 수혜주로 주목받는 이유와 사업 구조, 성장 동력을 분석합니다.
 tags: [에스피지, 로봇관련주, 감속기, 전기자전거, 테마주, 휴머노이드, 액추에이터]
 categories: [주식, 테마분석]
-date: 2026-01-14 18:20:00+09:00
+date: 2026-01-14 18:40:35+09:00
 slug: robotjeongijajeongeo-tema-suhyeju-eseupiji
 image: "thumbnail.webp"
 cover:

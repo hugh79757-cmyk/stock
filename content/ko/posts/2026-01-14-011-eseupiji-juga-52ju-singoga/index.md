@@ -3,7 +3,7 @@ title: 에스피지 주가 52주 신고가 경신, 외국인 순매수 이어지
 description: 에스피지가 52주 신고가를 연일 경신하는 배경과 외국인·기관 수급 동향, 향후 주가 전망을 분석합니다.
 tags: [에스피지, 52주신고가, 외국인순매수, 주가상승, 로봇주, 수급분석, CES2026]
 categories: [주식, 시장분석]
-date: 2026-01-14 18:19:00+09:00
+date: 2026-01-14 18:39:35+09:00
 slug: eseupiji-juga-52ju-singoga
 image: "thumbnail.webp"
 cover:
